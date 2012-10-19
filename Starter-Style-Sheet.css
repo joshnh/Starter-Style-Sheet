@@ -179,6 +179,7 @@ p {
     line-height: 1.5;
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
+        -ms-hyphens: auto;
             hyphens: auto;
 }
 p a:link,
