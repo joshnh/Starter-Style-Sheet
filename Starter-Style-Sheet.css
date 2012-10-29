@@ -130,7 +130,7 @@ table {
 /**********************/
 
 html {
-    color: #333;
+    color: #444;
     font-family: sans-serif;
     font-size: 100%;
 }
@@ -185,14 +185,14 @@ p {
 p a:link,
 p a:visited {
     border-bottom: 2px solid #6af;
-    color: #333;
+    color: #444;
     padding-bottom: 1px;
     text-decoration: none;
-    -webkit-transition: .25s ease;
-       -moz-transition: .25s ease;
-        -ms-transition: .25s ease;
-         -o-transition: .25s ease;
-            transition: .25s ease;
+    -webkit-transition: .25s;
+       -moz-transition: .25s;
+        -ms-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
 }
 p a:hover,
 p a:focus {
@@ -207,7 +207,8 @@ p a:active {
          -o-transition: none;
             transition: none;
 }
-ul {
+ul,
+ol {
     margin-bottom: 1.5em;
     padding: 0;
 }
