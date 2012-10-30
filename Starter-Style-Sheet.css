@@ -25,6 +25,17 @@ html {
 body {
     margin: 0;
 }
+/* Remove text-shadow in selection highlight: h5bp.com/i */
+::-moz-selection {
+    background-color: hsla(0,0%,0%,.5);
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background-color: hsla(0,0%,0%,.5);
+    color: #fff;
+    text-shadow: none;
+}
 /* Addresses `outline` inconsistency between Chrome and other browsers. */
 a:focus {
     outline: thin dotted;
@@ -56,6 +67,7 @@ pre {
 /* Removes border when inside `a` element in IE 8/9. */
 img {
     border: 0;
+    max-width: 100%;
 }
 /* Addresses margin not present in IE 8/9 and Safari 5. */
 figure {
@@ -175,7 +187,7 @@ h6 {
 }
 p {
     font-size: 1em; /* 16 */
-    margin-bottom: 1.5em; /* 24 / 16 */
+    margin: 0 0 1.5em; /* 24 / 16 */
     line-height: 1.5; /* 24 / 16 */
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
@@ -209,7 +221,7 @@ p a:active {
 }
 ul,
 ol {
-    margin-bottom: 1.5em;
+    margin: 0 0 1.5em;
     padding: 0;
 }
 li {
