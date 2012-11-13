@@ -220,11 +220,15 @@ p a:active {
          -o-transition: none;
             transition: none;
 }
-ul,
-ol {
+dl,
+ol,
+ul {
     margin: 0 0 1.5em;
     padding: 0;
 }
+dd,
+dt,
 li {
     line-height: 1.5;
-}​
+    margin: 0;
+}
