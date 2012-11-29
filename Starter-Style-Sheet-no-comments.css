@@ -1,0 +1,192 @@
+/* Normalize */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+}
+::-moz-selection {
+    background-color: hsla(0,0%,0%,.5);
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background-color: hsla(0,0%,0%,.5);
+    color: #fff;
+    text-shadow: none;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+strong {
+    font-weight: bold;
+}
+mark {
+    background: #ff6;
+    color: #444;
+}
+code,
+pre {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: top;
+}
+figure {
+    margin: 0;
+}
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+button,
+input {
+    line-height: normal;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Default Typography */
+
+html {
+    color: #444;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin: 0;
+}
+h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin-bottom: .5em;
+}
+h2 {
+    font-size: 2.25em;
+    line-height: 1.333333333;
+    margin-bottom: 0.666666666em;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+h4 {
+    font-size: 1.3125em;
+    line-height: 1.142857142;
+    margin-bottom: 1.142857142em;
+}
+h5 {
+    font-size: 1.125em;
+    line-height: 1.333333333;
+    margin-bottom: 1.333333333em;
+}
+h6 {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+p {
+    font-size: 1em;
+    margin: 0 0 1.5em;
+    line-height: 1.5;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+}
+p a:link,
+p a:visited {
+    border-bottom: 2px solid #6af;
+    color: #444;
+    padding-bottom: 1px;
+    text-decoration: none;
+    -webkit-transition: .25s;
+       -moz-transition: .25s;
+        -ms-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
+}
+p a:hover,
+p a:focus {
+    color: #6af;
+}
+p a:active {
+    position: relative;
+    top: 1px;
+    -webkit-transition: none;
+       -moz-transition: none;
+        -ms-transition: none;
+         -o-transition: none;
+            transition: none;
+}
+dl,
+ol,
+ul {
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+dd,
+dt,
+li {
+    line-height: 1.5;
+    margin: 0;
+}
