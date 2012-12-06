@@ -179,15 +179,18 @@ p a:active {
          -o-transition: none;
             transition: none;
 }
+
 dl,
 ol,
 ul {
+    font-size: 1em;
     margin: 0 0 1.5em;
     padding: 0;
 }
 dd,
 dt,
 li {
+    font-size: 1em;
     line-height: 1.5;
     margin: 0;
 }
