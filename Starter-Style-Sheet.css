@@ -208,18 +208,17 @@ p a:active {
          -o-transition: none;
             transition: none;
 }
-
 dl,
 ol,
 ul {
-    font-size: 1em;
-    margin: 0 0 1.5em;
+    font-size: 1em; /* 16 */
+    margin: 0 0 1.5em; /* 24 / 16 */
     padding: 0;
 }
 dd,
 dt,
 li {
-    font-size: 1em;
-    line-height: 1.5;
+    font-size: 1em; /* 16 */
+    line-height: 1.5; /* 24 / 16 */
     margin: 0;
 }
