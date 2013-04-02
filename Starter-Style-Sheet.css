@@ -218,7 +218,6 @@ ul {
 dd,
 dt,
 li {
-    font-size: 1em; /* 16 */
     line-height: 1.5; /* 24 / 16 */
     margin: 0;
 }
